@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
+ * copyright 2025
  */
 
 
@@ -35,6 +35,7 @@
   --ff-saira-stencil-one: "Saira Stencil One", sans-serif; 
   --ff-poppins: 'Poppins', sans-serif;
   --ff-roboto: 'Roboto', sans-serif;
+  --fs-modern :'modern' sans-serif
 
   --fs-1: 1.6rem;
   --fs-2: calc(1.813rem + 1vw);
@@ -191,7 +192,7 @@ body.active { overflow: hidden; }
 .h3,
 .h4 {
   color: var(--color-primary);
-  font-family: var(--ff-poppins);
+  font-family: var(--ff-modern);
   line-height: 1.2;
 }
 
@@ -316,7 +317,7 @@ body.active { overflow: hidden; }
 
 .logo a {
   color: var(--color-primary);
-  font-family: var(--ff-poppins);
+  font-family: var(--ff-modern);
 }
 
 .logo span {
@@ -429,7 +430,7 @@ body.active { overflow: hidden; }
   width: max-content;
   margin-inline: auto;
   color: var(--color-primary);
-  font-family: var(--ff-poppins);
+  font-family: var(--ff-modern);
   font-size: var(--fs-1);
   padding: 10px;
   transform: translateY(50px);
@@ -618,7 +619,7 @@ main { overflow-x: hidden; }
 
 .toggle-btn {
   color: var(--color-primary);
-  font-family: var(--ff-poppins);
+  font-family: var(--ff-modern);
   padding: 5px 25px;
   transition: var(--transition-1);
 }
@@ -868,7 +869,7 @@ main { overflow-x: hidden; }
 .form-label {
   color: var(--color-primary);
   font-size: var(--fs-7);
-  font-family: var(--ff-poppins);
+  font-family: var(--ff-modern);
   margin-bottom: 8px;
   margin-left: 5px;
 }
